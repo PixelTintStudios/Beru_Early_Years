@@ -15074,7 +15074,8 @@ background-position: 0px !important;
 	position: relative;	
 	padding: 15px 15px;
 	font-size: 14px;
-	color: #000;
+	background-color: #000;
+	color: #eee;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	transition: all 600ms cubic-bezier(0.77, 0, 0.175, 1);	
@@ -15082,7 +15083,7 @@ background-position: 0px !important;
 	user-select: none;
 	display:inline-block;
 	font-weight:600;
-	border: 1px solid #eef1f2;
+	/* border: 1px solid #eef1f2; */
 }
 .get-in-touch-btn:before,
 .get-in-touch-btn:after {
