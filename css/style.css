@@ -15186,13 +15186,13 @@ New Menu Style for mobile device (august/2021)
 	  overflow-y: inherit !important;
 	  left: -250px;
 	  top: 0px;
-	  transition: all 0.5s linear;
+	  transition: all 0.1s linear;
 	  background-color: #fff;
 	}
 	.header-style-1.mobile-sider-drawer-menu .header-nav .nav > li:hover > .sub-menu {transition: none;}
 	.header-style-1.mobile-sider-drawer-menu .header-nav .nav > li .sub-menu li:hover > .sub-menu {transition: none;}
 	.header-style-1.mobile-sider-drawer-menu.active .header-nav {left: 0%;}
-	.header-style-1.mobile-sider-drawer-menu .icon-bar {transition: all 0.5s linear; position: relative;}
+	.header-style-1.mobile-sider-drawer-menu .icon-bar {transition: all 0.1s linear; position: relative;}
 	.header-style-1.mobile-sider-drawer-menu #mobile-side-drawer {position: relative; z-index: 1;}
 	.header-style-1.mobile-sider-drawer-menu.active .icon-bar.icon-bar-first {transform: rotate(45deg) translateX(3px) translateY(2px);}
 	.header-style-1.mobile-sider-drawer-menu.active .icon-bar.icon-bar-three {transform: rotate(-45deg) translateX(3px) translateY(-2px);}
