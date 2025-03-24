@@ -10455,7 +10455,7 @@ button.scroltop span {
 	Contact us page 
 -------------------------------------*/
 .contact-form{padding-right:100px;}
-.contact-info{margin-left:-100px;margin-top:150px;}
+.contact-info{margin-left:20px;}
 ul.contact-info li {
 	padding: 0 0 15px 25px;
 	margin-bottom: 15px;
