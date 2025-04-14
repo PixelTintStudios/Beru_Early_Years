@@ -2493,6 +2493,9 @@ ol.list-num-count.list-outline-none>li:before {
 .bg-green {
 	background-color: #a5de5c;
 }
+.bg-green-light {
+	background-color: #f0f8c7;
+}
 
 .bg-yellow {
 	background-color: #fff000;
