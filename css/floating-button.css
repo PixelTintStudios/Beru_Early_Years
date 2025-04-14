@@ -85,7 +85,7 @@ html, body {
   position:absolute;
   width: 65px;
   height: 65px;
-  background: #fac38f;
+  background: #ffd0a3;
   bottom: 0;
   border-radius: 50%;
   left: 0;
@@ -132,15 +132,15 @@ html, body {
  
 }
 .floating-container .float-element:nth-child(1) {
-  background: #6ef475;
+  background: #adfa8f;
   box-shadow: 0 20px 20px -10px rgba(1, 75, 1, 0.5);
 }
 .floating-container .float-element:nth-child(2) {
-  background: #f18ad4;
+  background: #fcb8e9;
   box-shadow: 0 20px 20px -10px rgba(255, 0, 208, 0.5);
 }
 .floating-container .float-element:nth-child(3) {
-  background: #85f389;
+  background: #b1f894;
   box-shadow: 0 20px 20px -10px rgba(0, 255, 47, 0.5);
 }
 
