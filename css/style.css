@@ -8610,7 +8610,7 @@ padding:7px 0px;
 	margin-top: 24px;
 	margin-bottom: 24px;
 	margin-left: 15px;
-	margin-right: -10px;
+	/* margin-right: -10px; */
 	padding: 12px 10px;
 }
 
@@ -10356,7 +10356,7 @@ button.scroltop span {
 
 #bg {
 	background-attachment: fixed;
-	background-size: cover;
+	background-size: cover ;
 }
 
 .page-wraper {
