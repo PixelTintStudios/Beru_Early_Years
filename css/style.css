@@ -587,8 +587,8 @@ table {
 	}
 }
 
-.delius-regular {
-	font-family: "Delius", cursive;
+.metrophobic-regular {
+	font-family: "Metrophobic", sans-serif;
 	font-weight: 400;
 	font-style: normal;
   }
@@ -654,7 +654,7 @@ h2 {
 }
 
 h3 {
-	font-family: 'Delius', italic;
+	font-family: 'Metrophobic', sans-serif;
 	font-weight: 600;
 	font-size: 38px;
 	color: #000;
@@ -662,7 +662,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'Delius', italic;
+	font-family: 'Metrophobic', sans-serif;
 	font-weight: 600;
 	font-size: 22px;
 	color: #000;
