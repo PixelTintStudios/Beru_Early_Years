@@ -13406,6 +13406,7 @@ background: #000;
 	bottom:0px;
 	margin-top: 0px;
 	margin-left:80px;
+	
 }
 
 .video-section-full .overlay-main{
@@ -13489,6 +13490,7 @@ background: #000;
 }
 .video-section-full-v2 .video-section-full{
 	width:80%;
+	margin-right:2%;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -13498,7 +13500,7 @@ background: #000;
 	}
 .video-section-full-v2 .video-section-full{
 	
-	margin-left:80px;
+	
 
 }	
 	
