@@ -640,14 +640,14 @@ h6 a.sx-text-white:hover {
 }
 
 h1 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-weight: 600;
 	font-size: 50px;
 	color: #000;
 }
 
 h2 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Metrophobic', sans-serif;
 	font-weight: 600;
 	font-size: 44px;
 	color: #000;
@@ -13370,6 +13370,7 @@ background: #000;
 .video-section-full-v2{
 	position: relative;
 	z-index: 1;
+	margin-left:-40px; /* Modified by shailu */
 	margin-top: 40px;
 	margin-bottom:50px;
 	margin-right: 40px;
@@ -13379,6 +13380,7 @@ background: #000;
 	position: absolute;
 	top: -40px;
 	right: -40px;
+	/* left: 40px; */
 	width: 100%;
 	height: auto;
 	background-color: transparent;
@@ -13403,7 +13405,7 @@ background: #000;
 	overflow: hidden;
 	bottom:0px;
 	margin-top: 0px;
-	margin-left:0px;
+	margin-left:80px;
 }
 
 .video-section-full .overlay-main{
@@ -13456,7 +13458,7 @@ background: #000;
 }
 .video-section-content{
 	padding: 30px 0px;
-	width:100%
+	width:100%;
 }
 
 .video-section-bottom{
@@ -13475,14 +13477,18 @@ background: #000;
 	padding: 60px 40px;
 	bottom: 0px;
 	margin-top: 0px;
+	
 	margin-bottom:30px;
+	
 }	
 }
 @media only screen and (max-width:767px){
 	
 .video-section-full-v2{
 	margin-bottom: 40px;
-
+}
+.video-section-full-v2 .video-section-full{
+	width:80%;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -13491,14 +13497,16 @@ background: #000;
 		margin-bottom:15px;
 	}
 .video-section-full-v2 .video-section-full{
-	margin-left:0px;
+	margin-left:74px;
+
 }	
 	
 }
 
 @media only screen and (max-width: 420px) {
 .video-section-full-v2 .video-section-full{
-	padding:150px 40px;
+	padding:150px 120px;
+	margin-right: 80px;
 }
 	
 }
