@@ -6,7 +6,7 @@
 		|____HEADING & TITLE____	
 		|____TEXT & PARAGRAPH____	
 		|____TEXT ALIGN____		
-		|____TEXT VERTICLE ALIGN____	
+		|____TEXT VERTICAL ALIGN____	
 		|____TEXT NO LINE BRACK____		
 		|____TEXT TRANSFORM____		
 		|____TEXT SIZE____	
@@ -704,6 +704,7 @@ h6 {
 p {
 	line-height: 24px;
 	margin-bottom: 20px;
+	text-align:justify;
 }
 
 strong {
@@ -2625,6 +2626,10 @@ padding:80px 15px 50px 15px;
 }
 
 @media only screen and (max-width:991px) {
+	.wrap p{
+		float:right;
+		margin-left:10px;
+		}
 .sx-left-part {
 	
 	max-width: 720px;
@@ -7295,7 +7300,7 @@ blockquote.author-quote {
 }
 
 blockquote.author-quote p {
-	font-size: 24px;
+	font-size: 16px;
 	line-height: 32px;
 }
 
@@ -10937,8 +10942,25 @@ Background Effects
 	background-color: #23252d;
 	margin: 0px;
 }
-
+/* start of added code */
+ @media (min-width: 992px) { 
+      .stinky {
+        float: left;
+        width: 40%;
+        margin-right: 10px;
+      }
+      .rim .p {
+        float: right;
+		text-align:justify;
+        width: 55%;
+      }
+	}
+/* end of added code */
 @media only screen and (max-width:800px) {
+	.about-home{
+		float:left;
+		margin-right:20px;
+	}
 	.home-client-carousel.owl-btn-center-v.owl-carousel .owl-nav {
 		left: auto;
 		right: 5px;
@@ -11026,7 +11048,7 @@ Background Effects
 
 .project-carousel1 .image-single-carousel .sx-info{
 	position:absolute;
-	background-color:rgba(0,0,0,0.8);
+	background-color:rgba(0,0,0,0.4);
 	right:50px;
 	bottom:50px;
 	padding:30px;
