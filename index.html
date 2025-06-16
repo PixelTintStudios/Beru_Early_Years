@@ -1383,23 +1383,41 @@
             <!--About us-->
             
             <section id="about">
-                <div class="section-full mobile-page-padding bg-repeat p-t20 p-b80" >
-                    <div class="section-content">
-                        <div class="container">
+    <div class="section-full mobile-page-padding bg-repeat p-t20 p-b80" >
+        <div class="section-content">
+            <div class="container">
                 <div class="video-section-full-v2">
-                    <div class="video-section-full bg-no-repeat bg-cover bg-center overlay-wraper m-b30" style="background-image:url(images/main-slider/slider1/10.webp)" >
-                        <!-- style="background-image:url(images/main-slider/slider1/1.webp)" -->
+                    <!-- <div class="video-section-full bg-no-repeat bg-cover bg-center overlay-wraper m-b30" style="background-image:url(images/main-slider/slider1/10.webp)" >
                         <div class="overlay-main bg-black opacity-04"></div>
                         <div class="video-section-inner">
                             <div class="video-section-content">
                                  <a href="https://drive.google.com/file/d/19hmz2KXNi_DD-AIf-rU0gswHLt2hQiQN/preview" class="mfp-video play-now">
                                     <i class="icon fa fa-play"></i>
                                     <span class="ripple"></span>
+                                </a>                                 
+                                <div class="video-section-bottom">
+                                    <h3 class="sx-title text-white">A Day<br>at Beru</h3>
+                                </div> 
+                            </div> 
+                        </div>  
+                    </div> -->
+                    <!-- Preload the LCP image in the <head> of your HTML -->
+                    <link rel="preload" as="image" href="images/main-slider/slider1/10.webp">
+
+                    <!-- Replace CSS background with an actual <img> tag -->
+                    <div class="video-section-full bg-no-repeat bg-cover bg-center overlay-wraper m-b30" style="position: relative;">
+                        <img src="images/main-slider/slider1/10.webp" class="bg-cover bg-no-repeat" alt="A Day at Beru" style="width: 100%; height: auto; object-fit: cover; display: block;">
+
+                        <!-- Overlay and content go on top -->
+                        <div class="overlay-main bg-black opacity-04" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></div>
+
+                        <div class="video-section-inner" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+                            <div class="video-section-content">
+                                <a href="https://drive.google.com/file/d/19hmz2KXNi_DD-AIf-rU0gswHLt2hQiQN/preview" class="mfp-video play-now">
+                                    <i class="icon fa fa-play"></i>
+                                    <span class="ripple"></span>
                                 </a> 
-                                <!--"https://player.vimeo.com/video/1074886753?h=d892216132&amp;color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0"-->
-                                <!--https://drive.google.com/file/d/19hmz2KXNi_DD-AIf-rU0gswHLt2hQiQN/view?usp=drive_link-->
-                                <!-- https://vimeo.com/1056237066/ced16a5a2f-->
-                                 
+
                                 <div class="video-section-bottom">
                                     <h3 class="sx-title text-white">A Day<br>at Beru</h3>
                                 </div> 
@@ -1410,7 +1428,6 @@
                 </div>
             </div>  
         </div>
-
     </div>
             
                 <!-- <div class="row">
