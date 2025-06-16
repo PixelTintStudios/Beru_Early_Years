@@ -2467,9 +2467,28 @@
 <!--FAQ End-->
 
 <!--Pop on page load start-->
+<script>
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      const s = document.createElement('script');
+      s.src = "https://forms.app/cdn/embed.js";
+      s.type = "text/javascript";
+      s.async = true;
+      s.defer = true;
+      s.onload = function() {
+        new formsapp('6842d823111b2e00097a659b', 'popup', {
+          overlay: 'rgba(45,45,45,0.5)',
+          width: '800px',
+          height: '600px',
+          autoOpen: { action: 'aftersettime', setTimeSeconds: '0.5' }
+        //   openingAnimation: { entrance: 'animate__fadeIn', exit: 'animate__fadeOut' }
+        }, 'https://rsjn718o.forms.app');
+      };
+      document.body.appendChild(s);
+    }, 1000); // delay script injection by 3s
+  });
+</script>
 
-
-<script src="https://forms.app/cdn/embed.js" type="text/javascript" async defer onload="new formsapp('6842d823111b2e00097a659b', 'popup', {'overlay':'rgba(45,45,45,0.5)','width':'800px','height':'600px','autoOpen':{'action':'aftersettime','setTimeSeconds':'2'},'openingAnimation':{'entrance':'animate__fadeIn','exit':'animate__fadeOut'}}, 'https://rsjn718o.forms.app');"></script>
 <!--Pop on page load end-->
 
           
