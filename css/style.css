@@ -451,7 +451,7 @@
 
 body {
 	background-color: #FFF;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'passenger sans', sans-serif;
 	font-size: 14px;
 	font-weight: 500;
 	color: #000;
@@ -479,7 +479,7 @@ a:focus {
 }
 
 p {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'passenger sans', sans-serif;
 }
 
 p a {
@@ -640,21 +640,21 @@ h6 a.sx-text-white:hover {
 }
 
 h1 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 	font-weight: 600;
 	font-size: 50px;
 	color: #000;
 }
 
 h2 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 	font-weight: 600;
 	font-size: 44px;
 	color: #000;
 }
 
 h3 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 	font-weight: 600;
 	font-size: 38px;
 	color: #000;
@@ -662,7 +662,7 @@ h3 {
 }
 
 h4 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 	font-weight: 600;
 	font-size: 22px;
 	color: #000;
@@ -670,7 +670,7 @@ h4 {
 }
 
 h5 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 	font-weight: 600;
 	font-size: 18px;
 	color: #000;
@@ -678,7 +678,7 @@ h5 {
 }
 
 h6 {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 	font-weight: 600;
 	font-size: 16px;
 	color: #000;
@@ -10397,7 +10397,7 @@ button.scroltop span {
 .section-head h3 {
 	margin-top: 0;
 	margin-bottom: 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 }
 
 .title-small {
@@ -12770,7 +12770,7 @@ transform-origin: center right;
 	font-weight:600;
 	color: rgba(177, 177, 177, 0.2);
 	line-height: 120px;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'cirka', sans-serif;
 	
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
